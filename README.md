@@ -105,8 +105,8 @@ results <- fetch_calculate(sites, lake)
 ### NHD Integration (US lakes only)
 
 ```r
-# Requires nhdplusTools package
-# install.packages("nhdplusTools")
+# Requires hydrogeofetch package
+# install.packages("hydrogeofetch")
 
 results <- fetch_calculate(sites, lake, add_context = TRUE)
 # Adds: outlet location, inlet locations, watershed area, connectivity classification
